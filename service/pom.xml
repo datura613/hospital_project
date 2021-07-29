@@ -19,7 +19,6 @@
     <!--web-->
     <dependency>
         <groupId>org.springframework.boot</groupId>
-
         <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     <!--mybatis-plus-->
@@ -39,15 +38,15 @@
         <optional>true</optional>
     </dependency>
     <!-- 服务调用feign -->
-    <dependency>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-openfeign</artifactId>
-    </dependency>
+<!--    <dependency>-->
+<!--        <groupId>org.springframework.cloud</groupId>-->
+<!--        <artifactId>spring-cloud-starter-openfeign</artifactId>-->
+<!--    </dependency>-->
     <!-- 服务注册 -->
-    <dependency>
-        <groupId>com.alibaba.cloud</groupId>
-        <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-    </dependency>
+<!--    <dependency>-->
+<!--        <groupId>com.alibaba.cloud</groupId>-->
+<!--        <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>-->
+<!--    </dependency>-->
     <!-- 流量控制 -->
     <!-- <dependency>
          <groupId>com.alibaba.cloud</groupId>
@@ -73,7 +72,8 @@
     </resource>
     <resource>
         <directory>src/main/resources</directory>
-        <includes> <include>**/*.yml</include>
+        <includes>
+            <include>**/*.yml</include>
             <include>**/*.properties</include>
             <include>**/*.xml</include>
         </includes>
